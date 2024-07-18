@@ -24,7 +24,7 @@ export default function RootLayout({
         <Theme appearance="light">
           <Navigation />
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </Theme>
       </body>
     </html>
