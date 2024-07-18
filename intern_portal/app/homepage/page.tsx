@@ -10,7 +10,7 @@ export default async function HomePage() {
   // console.log("🚀 ~ HomePage ~ data:", data);
 
   return (
-    <Container py="4" style={{ overflowY: "auto", maxHeight: "100vh" }}>
+    <Container py="4" style={{ padding: "150px" }}>
       <Card size="4">
         <Flex gap="4" direction="column">
           {/* Welcome Message */}
@@ -90,7 +90,7 @@ export default async function HomePage() {
         </Flex>
       </Card>
 
-      {/* Message from Bill Money */}
+      {/* Message from Bill Monet */}
       <Card size="4">
         <Flex gap="4" direction="column">
           <section>
