@@ -60,10 +60,10 @@ export function Navigation() {
               <summary>Resources</summary>
               <ul className="bg-base-100 rounded-t-none p-2">
                 <li>
-                  <Link href="/contacts">Contacts</Link>
+                  <Link href="/resources/contacts">Contacts</Link>
                 </li>
                 <li>
-                  <Link href="/general">General</Link>
+                  <Link href="/resources/general">General</Link>
                 </li>
               </ul>
             </details>
