@@ -9,9 +9,10 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 const Links = [
-  { href: "/home", label: "Home" },
-  { href: "/projects", label: "My Projects" },
-  { href: "/organizations", label: "Organizations" },
+  { href: "/homepage", label: "Home" },
+  { href: "/calendar", label: "Calendar" },
+  { href: "/pastProjects", label: "Past Projects" },
+  //   { href: "/resources", label: "Resources" },
 ];
 
 const OtherLinks = [
@@ -33,35 +34,37 @@ export function Navigation() {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1 ml-54">
-        <a className=" text-blue-600">
-          <Image
-            alt="Akima Logo"
-            src="/Akima_Logo.png"
-            width={200}
-            height={200}
-          />
-        </a>
+        <Link href="/">
+          <div className="text-blue-600">
+            <Image
+              alt="Akima Logo"
+              src="/Akima_Logo.png"
+              width={200}
+              height={200}
+            />
+          </div>
+        </Link>
       </div>
       <div className="flex-none gap-2">
         <ul className="menu menu-horizontal px-2">
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>Calendar</a>
-          </li>
-          <li>
-            <a>Past Projects</a>
-          </li>
-          <li>
+          {Links.map(({ href, label }) => (
+            <li key={href}>
+              <Link href={href}>
+                <div className={pathname === href ? "font-bold" : ""}>
+                  {label}
+                </div>
+              </Link>
+            </li>
+          ))}
+          <li className="relative z-10">
             <details>
               <summary>Resources</summary>
               <ul className="bg-base-100 rounded-t-none p-2">
                 <li>
-                  <a>Link</a>
+                  <Link href="/contacts">Contacts</Link>
                 </li>
                 <li>
-                  <a>Link</a>
+                  <Link href="/general">General</Link>
                 </li>
               </ul>
             </details>
@@ -71,15 +74,12 @@ export function Navigation() {
           <div tabIndex={0} role="button" className="btn btn-circle avatar">
             <div className="w-10 rounded-full"></div>
           </div>
-          <ul
-            tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-          >
+          <ul className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li>
-              <a>Sign In</a>
+              <Link href="/login">Sign In</Link>
             </li>
             <li>
-              <a>Logout</a>
+              <Link href="/logout">Logout</Link>
             </li>
           </ul>
         </div>
