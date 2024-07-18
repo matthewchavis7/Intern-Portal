@@ -12,7 +12,6 @@ const Links = [
   { href: "/homepage", label: "Home" },
   { href: "/calendar", label: "Calendar" },
   { href: "/pastProjects", label: "Past Projects" },
-  //   { href: "/resources", label: "Resources" },
 ];
 
 const OtherLinks = [

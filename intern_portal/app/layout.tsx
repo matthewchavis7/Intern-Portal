@@ -5,6 +5,7 @@ import { Grid, Theme } from "@radix-ui/themes";
 
 import type { Metadata } from "next";
 import { Navigation } from "@/components/Navigation/Navigation";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Intern Portal",
@@ -19,10 +20,11 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body>
-        <Theme appearance="light">
+      <body className="flex flex-col min-h-screen">
+        <Theme appearance="light" className="flex flex-col min-h-screen">
           <Navigation />
-          {children}
+          <main className="flex-grow">{children}</main>
+          <Footer />
         </Theme>
       </body>
     </html>
