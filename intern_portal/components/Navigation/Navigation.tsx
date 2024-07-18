@@ -31,7 +31,7 @@ export function Navigation() {
   }, []);
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-blue-100 shadow-md fixed top-0 left-0 w-full z-50 h-16">
       <div className="flex-1 ml-54">
         <Link href="/">
           <div className="text-blue-600">
