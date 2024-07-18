@@ -20,10 +20,10 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className="flex flex-col">
-        <Theme appearance="light">
+      <body className="flex flex-col min-h-screen">
+        <Theme appearance="light" className="flex flex-col min-h-screen">
           <Navigation />
-          {children}
+          <main className="flex-grow">{children}</main>
           <Footer />
         </Theme>
       </body>
