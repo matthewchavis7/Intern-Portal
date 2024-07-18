@@ -9,9 +9,10 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 const Links = [
-  { href: "/home", label: "Home" },
-  { href: "/projects", label: "My Projects" },
-  { href: "/organizations", label: "Organizations" },
+  { href: "/homepage", label: "Home" },
+  { href: "/pastProjects", label: "Past Projects" },
+  { href: "/resources", label: "Resources" },
+  { href: "/calendar", label: "Calendar" },
 ];
 
 const OtherLinks = [
