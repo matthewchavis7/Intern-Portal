@@ -3,11 +3,8 @@ import "@radix-ui/themes/styles.css";
 
 import { Grid, Theme } from "@radix-ui/themes";
 
-import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import { Navigation } from "@/components/Navigation/Navigation";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Intern Portal",
@@ -22,18 +19,10 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <Theme appearance="light">
-          <Grid
-            width="100vw"
-            height="100vh"
-            rows="auto 1fr"
-            columns="1"
-            overflow="hidden"
-          >
-            <Navigation />
-            {children}
-          </Grid>
+          <Navigation />
+          {children}
         </Theme>
       </body>
     </html>
