@@ -8,6 +8,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { Montserrat } from "next/font/google";
+
+const mont = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 const Links = [
   { href: "/homepage", label: "Home" },
   { href: "/calendar", label: "Calendar" },
@@ -31,7 +37,9 @@ export function Navigation() {
   }, []);
 
   return (
-    <div className="navbar bg-blue-100 shadow-md fixed top-0 left-0 w-full z-50 h-16">
+    <div
+      className={`navbar bg-blue-100 shadow-md fixed top-0 left-0 w-full z-50 h-16 ${mont.className}`}
+    >
       <div className="flex-1 ml-54">
         <Link href="/">
           <div className="text-blue-600">
@@ -45,7 +53,7 @@ export function Navigation() {
         </Link>
       </div>
       <div className="flex-none gap-2">
-        <ul className="menu menu-horizontal px-2">
+        <ul className="menu menu-horizontal px-2 text-base">
           {Links.map(({ href, label }) => (
             <li key={href}>
               <Link href={href}>
