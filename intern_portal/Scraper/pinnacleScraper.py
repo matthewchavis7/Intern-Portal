@@ -15,4 +15,12 @@ except requests.exceptions.RequestException as e:
 
 soup = BeautifulSoup(res.content, "html.parser")
 
-print(soup)
+targets = [
+           "Jonah Minihan", "Caleb Solomon", "Max Britton", "Joshua Bradshaw", "Dennis O'Dell", "Adam Smith", "Jason Terry", "Kimberly Czerniewski",
+           "Tina Tucker", "Isla Hamill", ""
+        ]
+
+images = []
+Names = []
+Titles = []
+
