@@ -70,13 +70,6 @@
     "Email": ""
   },
   {
-    "ID": 11,
-    "Image": "NOT FOUND",
-    "Name": "",
-    "Title": "",
-    "Email": ""
-  },
-  {
     "ID": 12,
     "Image": "https://media.licdn.com/dms/image/C4E03AQE7gS-SSDKthg/profile-displayphoto-shrink_100_100/0/1663852007619?e=1726704000&v=beta&t=8UCN-YGW5t0eFRxyhBFcsxa_Q7MoDwF37ejgWoCm_aI",
     "Name": "Tina Tucker",
@@ -85,10 +78,10 @@
   },
   {
     "ID": 13,
-    "Image": "",
+    "Image": "https://media.licdn.com/dms/image/D4E03AQHYlh2dsxtLKA/profile-displayphoto-shrink_100_100/0/1710770627835?e=1726704000&v=beta&t=FacZRAni0Q_17Q5aBwuXXlZky00g3h6LEInuNA0UsSg",
     "Name": "Stacey Springer",
     "Title": "Senior Director Talent Development",
-    "Email": ""
+    "Email": "stacey.springer@akima.com"
   },
   {
     "ID": 14,
@@ -99,7 +92,7 @@
   },
   {
     "ID": 15,
-    "Image": "NOT FOUND",
+    "Image": "/notfound.jpg",
     "Name": "Will Hurley",
     "Title": "Software Engineer",
     "Email": "william.hurley@pinnacle-solutions.com"
@@ -109,7 +102,7 @@
     "Image": "https://media.licdn.com/dms/image/C4E03AQHj-SCENPDJqQ/profile-displayphoto-shrink_100_100/0/1646165686241?e=1726704000&v=beta&t=RtgsfizjqHNhOoVuacNBQPBREmoDKuFpTfj3fNgBcNU",
     "Name": "Ramya Vadapalli",
     "Title": "Software Engineer Intern",
-    "Email": "ramya.vadapalli@akima.coisla.hamill@pinnacle-solutions.com"
+    "Email": "ramya.vadapalli@akima.com"
   },
   {
     "ID": 17,
@@ -120,34 +113,27 @@
   },
   {
     "ID": 18,
-    "Image": "NOT FOUND",
+    "Image": "/notfound.jpg",
     "Name": "Simon Evans",
     "Title": "Software Engineer Intern III",
     "Email": "simon.evans@pinnacle-solutions.com"
   },
   {
     "ID": 19,
-    "Image": "NOT FOUND",
+    "Image": "/notfound.jpg",
     "Name": "Joe Hopper",
-    "Title": "Software Engineer",
+    "Title": "Software Engineer game designer",
     "Email": "joseph.hopper@pinnacle-solutions.com"
   },
   {
     "ID": 20,
-    "Image": "NOT FOUND",
+    "Image": "/notfound.jpg",
     "Name": "Todd Kiker",
     "Title": "Software Engineer/Game designer",
     "Email": "todd.kiker@pinnacle-solutions.com"
   },
   {
     "ID": 21,
-    "Image": "NOT FOUND",
-    "Name": "Todd Kiker",
-    "Title": "Software Engineer/Game designer",
-    "Email": "todd.kiker@pinnacle-solutions.com"
-  },
-  {
-    "ID": 22,
     "Image": "https://media.licdn.com/dms/image/C4E03AQGDQbuZqhfW4Q/profile-displayphoto-shrink_100_100/0/1659287150266?e=1726704000&v=beta&t=BdUQTEQ2OyuD0A_7NuJLGJ9a2FKc6dgGxqYeCciuCdM",
     "Name": "Anna Boyd",
     "Title": "Senior Product Manager",
