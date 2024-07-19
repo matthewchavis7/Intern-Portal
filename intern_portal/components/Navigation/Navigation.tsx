@@ -60,10 +60,16 @@ export function Navigation() {
               <summary>Resources</summary>
               <ul className="bg-base-100 rounded-t-none p-2">
                 <li>
-                  <Link href="/resources/contacts">Contacts</Link>
+                  <Link href="/resources/contacts">The Team</Link>
                 </li>
                 <li>
-                  <Link href="/resources/general">General</Link>
+                  <Link href="/resources/general">Help</Link>
+                </li>
+                <li>
+                  <Link href="/resources/InternAlumni">Timeline</Link>
+                </li>
+                <li>
+                  <Link href="/resources/Employees">Intern Database</Link>
                 </li>
               </ul>
             </details>
@@ -71,7 +77,12 @@ export function Navigation() {
         </ul>
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-circle avatar">
-            <div className="w-10 rounded-full"></div>
+            <div className="w-10 rounded-full">
+              <img
+                alt="Right Icon"
+                src="https://media.licdn.com/dms/image/C4E03AQHj-SCENPDJqQ/profile-displayphoto-shrink_100_100/0/1646165686241?e=1726704000&v=beta&t=RtgsfizjqHNhOoVuacNBQPBREmoDKuFpTfj3fNgBcNU"
+              />
+            </div>
           </div>
           <ul className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li>
