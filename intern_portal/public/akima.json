@@ -1,0 +1,86 @@
+[
+  {
+    "ID": 1,
+    "Image": "https://www.akima.com/wp-content/uploads/2020/08/Bill_Monet_-2_wide-600x398.jpg",
+    "Name": "Bill Monet",
+    "Title": "President & CEO",
+    "Email": "william.monet@akima.com"
+  },
+  {
+    "ID": 2,
+    "Image": "https://www.akima.com/wp-content/uploads/2020/08/Juvy-McCarthy-2020-v2-600x600.jpg",
+    "Name": "Juvy McCarthy",
+    "Title": "President, Technology Solutions & Products Group",
+    "Email": "juvy.mccarthy@akima.com"
+  },
+  {
+    "ID": 3,
+    "Image": "https://www.akima.com/wp-content/uploads/2020/08/Scott_Rauer-2-600x600.jpg",
+    "Name": "Scott Rauer",
+    "Title": "President, Facilities Solutions Group",
+    "Email": "scott.rauer@akima.com"
+  },
+  {
+    "ID": 4,
+    "Image": "https://www.akima.com/wp-content/uploads/2020/08/Barry_Smallwood-2-600x600.jpg",
+    "Name": "Barry Smallwood",
+    "Title": "President, Emerging Markets Group",
+    "Email": "barry.smallwood@akima.com"
+  },
+  {
+    "ID": 5,
+    "Image": "https://www.akima.com/wp-content/uploads/2020/08/Duncan-Greene-2022-White-Background-1x1-1-600x600.jpg",
+    "Name": "Duncan Greene",
+    "Title": "President, Mission Systems Engineering & Technology Group",
+    "Email": "duncan.greene@akima.com"
+  },
+  {
+    "ID": 6,
+    "Image": "https://www.akima.com/wp-content/uploads/2020/08/Chris_Jenkins-2-600x600.jpg",
+    "Name": "Chris Jenkins",
+    "Title": "President, Construction & Security Solutions Group",
+    "Email": "christopher.jenkins@akima.com"
+  },
+  {
+    "ID": 7,
+    "Image": "https://www.akima.com/wp-content/uploads/2020/09/Larry_Mechner-1-600x600.jpg",
+    "Name": "Larry Mechner",
+    "Title": "Senior Vice President & Chief Financial Officer",
+    "Email": "larry.mechner@akima.com"
+  },
+  {
+    "ID": 8,
+    "Image": "https://www.akima.com/wp-content/uploads/2021/11/Candy_Curtin_1x1-514x600.jpg",
+    "Name": "Candy Curtin",
+    "Title": "Chief Human Resources Officer",
+    "Email": "candy.curtin@akima.com"
+  },
+  {
+    "ID": 9,
+    "Image": "https://www.akima.com/wp-content/uploads/2024/01/Robert-Toth-W-1x1-1-600x600.jpg",
+    "Name": "Robert Toth",
+    "Title": "Chief Administrative Officer",
+    "Email": "robert.toth@akima.com"
+  },
+  {
+    "ID": 10,
+    "Image": "https://www.akima.com/wp-content/uploads/2022/06/Michael-Alvarado-2022-1-600x600.png",
+    "Name": "Mike Alvarado",
+    "Title": "Chief Growth Officer",
+    "Email": "michael.alvarado@akima.com"
+  },
+  {
+    "ID": 11,
+    "Image": "https://www.akima.com/wp-content/uploads/2020/09/Anne_Donohue-1-600x600.jpg",
+    "Name": "Anne Donohue",
+    "Title": "Vice President & General Counsel",
+    "Email": "anne.donohue@akima.com"
+  },
+  {
+    "ID": 12,
+    "Image": "https://www.akima.com/wp-content/uploads/2020/08/John_Lanzillotta-2-600x600.jpg",
+    "Name": "John Lanzillotta",
+    "Title": "Vice President, Compliance & SBA Strategy",
+    "Email": "john.lanzillotta@akima.com"
+  }
+]
