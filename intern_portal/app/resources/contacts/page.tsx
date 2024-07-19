@@ -18,11 +18,16 @@ const page = () => {
         <div className="mt-4">
           <p className="text-blue-700 text-xl text-center py-6">Meet</p>
           <div>
-            <p className="text-5xl text-center py-6">The Team</p>
+            <p className="text-7xl text-center py-6">The Team</p>
+            <p className="text-7xl text-center mt-36 mb-12 text-blue-500">
+              Akima
+            </p>
             <HerndonCard />
           </div>
-          <div className="mt-4">
-            <p className="text-5xl">Huntsville</p>
+          <div className="mt-24">
+            <p className="text-7xl text-center mb-12 text-green-600">
+              Pinnacle Solutions
+            </p>
             <PinnacleCards />
           </div>
         </div>

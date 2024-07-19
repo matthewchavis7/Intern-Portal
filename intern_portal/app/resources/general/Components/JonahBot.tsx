@@ -125,9 +125,8 @@ export default function JonahBot() {
         {
           role: "assistant",
           content: data.response,
-          avatar:
-            "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
-        }, // Add avatar for assistant messages
+          avatar: " /Jonah_Icon.png",
+        },
       ]);
     } catch (error) {
       console.error("Error:", error);
@@ -153,7 +152,7 @@ export default function JonahBot() {
         </div>
       </header>
 
-      <main className="flex-grow overflow-auto p-4">
+      <main className="flex-grow overflow-auto p-4 h-1/2">
         <div className="space-y-4">
           {messages.map((message, index) => (
             <div
@@ -182,7 +181,7 @@ export default function JonahBot() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn bg-blue-500 text-white">
             Send
           </button>
         </form>

@@ -12,7 +12,7 @@ import { Montserrat } from "next/font/google";
 
 const mont = Montserrat({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["500", "700"],
 });
 const Links = [
   { href: "/homepage", label: "Home" },

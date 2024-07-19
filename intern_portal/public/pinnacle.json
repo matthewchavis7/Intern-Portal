@@ -4,28 +4,28 @@
     "Image": "https://media.licdn.com/dms/image/C5603AQF3rr9H0FFa3g/profile-displayphoto-shrink_100_100/0/1650503874617?e=1726704000&v=beta&t=_P9IsZqTmGRVqhDnG-W0MQGUonVyhblgKqy0Bw7FXKk",
     "Name": "Jonah Minihan",
     "Title": "Software Engineer 3",
-    "Email": ""
+    "Email": "jonah.minihan@pinnacle-solutions.com"
   },
   {
     "ID": 2,
     "Image": "https://media.licdn.com/dms/image/C4E03AQF0ORU4OkmHaA/profile-displayphoto-shrink_100_100/0/1658850846384?e=1726704000&v=beta&t=f8pUUwsBHd3vxo6ZZ9uhhWwGwgOUy-YcOd5RY8F25Yo",
     "Name": "Caleb Solomon",
     "Title": "Mechanical Engineer",
-    "Email": ""
+    "Email": "caleb.solomon@pinnacle-solutions.com"
   },
   {
     "ID": 3,
     "Image": "https://media.licdn.com/dms/image/C4E03AQFM5BSU-Z-KmQ/profile-displayphoto-shrink_100_100/0/1642610159579?e=1726704000&v=beta&t=wEa08dXEPRNfU-OL5HOON-7FiYV2HAYMTqOF9kHSATQ",
     "Name": "Max Britton",
     "Title": "Full Stack Engineer",
-    "Email": ""
+    "Email": "max.britton@pinnacle-solutions.com"
   },
   {
     "ID": 4,
     "Image": "https://media.licdn.com/dms/image/D5603AQGZIMSOt19bJg/profile-displayphoto-shrink_100_100/0/1678144837409?e=1726704000&v=beta&t=5VgsBij71mxEeM5_FgjCGeFKER5W1c_W7yAxtooTx_4",
     "Name": "Joshua Bradshaw",
     "Title": "Product Owner | Senior Instructional Systems",
-    "Email": ""
+    "Email": "joshua.bradshaw@pinnacle-solutions.com"
   },
   {
     "ID": 5,
@@ -39,14 +39,14 @@
     "Image": "https://media.licdn.com/dms/image/C4E03AQEK9l_QD5ukog/profile-displayphoto-shrink_100_100/0/1603242484238?e=1726704000&v=beta&t=_kIhX6dLY1KRGCNHkikGEGjy0Cj_BHOm9eWvwd9qr2c",
     "Name": "Adam Smith",
     "Title": "Lead Game Designer",
-    "Email": ""
+    "Email": "adam.smith@pinnacle-solutions.com"
   },
   {
     "ID": 7,
     "Image": "https://media.licdn.com/dms/image/C5603AQE27qGR0tf6eA/profile-displayphoto-shrink_100_100/0/1664292360467?e=1726704000&v=beta&t=Fri5fJfYernFzL7RCnhCijsbRAU8ZKQgck5LU8ahVqo",
     "Name": "Jason Terry",
     "Title": "Cheif Engineer",
-    "Email": ""
+    "Email": "jason.terry@pinnacle-solutions.com"
   },
   {
     "ID": 8,
@@ -60,21 +60,21 @@
     "Image": "https://media.licdn.com/dms/image/C4E03AQECZLc0JLLQSA/profile-displayphoto-shrink_100_100/0/1641240957264?e=1726704000&v=beta&t=xOmzcb_dCW-8yBSncEJlzq1xNW8Z_qxTE9UmLoR-MVs",
     "Name": "Michael M Giannico II",
     "Title": "Project Manager",
-    "Email": ""
+    "Email": "michael.giannico@pinnacle-solutions.com"
   },
   {
     "ID": 10,
     "Image": "https://media.licdn.com/dms/image/C4E03AQHvptx_-VKHzQ/profile-displayphoto-shrink_100_100/0/1518314040998?e=1726704000&v=beta&t=kWEaulwejEhf58QgPVQojH55in1SlDzvWSGqCAzuFpM",
     "Name": "Kimberly Czerniewski",
     "Title": "Technical Artist",
-    "Email": ""
+    "Email": "kimberly.czerniewski@pinnacle-solutions.com"
   },
   {
     "ID": 12,
     "Image": "https://media.licdn.com/dms/image/C4E03AQE7gS-SSDKthg/profile-displayphoto-shrink_100_100/0/1663852007619?e=1726704000&v=beta&t=8UCN-YGW5t0eFRxyhBFcsxa_Q7MoDwF37ejgWoCm_aI",
     "Name": "Tina Tucker",
     "Title": "Chief Executive Officer",
-    "Email": ""
+    "Email": "tina.tucker@pinnacle-solutions.com"
   },
   {
     "ID": 13,
@@ -138,5 +138,12 @@
     "Name": "Anna Boyd",
     "Title": "Senior Product Manager",
     "Email": "anna.boyd@pinnacle-solutions.com"
+  },
+  {
+    "ID": 22,
+    "Image": "https://media.licdn.com/dms/image/C5603AQEACCXShIi3wA/profile-displayphoto-shrink_100_100/0/1516978683492?e=1726704000&v=beta&t=hvQn9pIhHoNBpRDj9pPrLHg94wBiaItj-ugii6lg8eM",
+    "Name": "Derron Jenkins",
+    "Title": "Information Technology",
+    "Email": "darron.jenkins@akima.com"
   }
 ]
