@@ -18,8 +18,8 @@ const page = () => {
         <div className="mt-4">
           <p className="text-blue-700 text-xl text-center py-6">Meet</p>
           <div>
-            <p className="text-7xl text-center py-6">The Team</p>
-            <p className="text-7xl text-center mt-36 mb-12 text-blue-500">
+            <p className="text-8xl text-center py-6">The Team</p>
+            <p className="text-7xl text-center mt-12 mb-12 text-blue-500">
               Akima
             </p>
             <HerndonCard />
