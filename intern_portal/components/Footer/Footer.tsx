@@ -1,8 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import { Montserrat } from "next/font/google";
+const mont = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 const Footer = () => {
   return (
-    <div className="mt-auto">
+    <div className={`mt-auto ${mont.className}`}>
       <footer className="footer bg-slate-800 text-neutral-content p-2">
         <aside>
           <Image src="/Akima_logosml.png" width={80} height={80} alt="Logo" />
